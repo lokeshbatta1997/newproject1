@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="100dp"
+    tools:context=".ReferFragment">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardCornerRadius="10dp"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:backgroundTint="@color/blue"
+       android:layout_marginTop="5dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Share SimpleCash to 10 Friends and get"
+           android:textColor="@color/white"
+           android:layout_margin="10dp"
+           android:textSize="17dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:drawableLeft="@drawable/ic_baseline_white_currency_rupee_24"
+           android:layout_marginTop="40dp"
+           android:layout_marginLeft="10dp"
+           android:text="450"
+           android:textSize="30dp"
+           android:textColor="@color/white"
+           android:layout_marginBottom="20dp"/>
+
+
+   </androidx.cardview.widget.CardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:strokeWidth="0.10dp"
+        android:layout_marginTop="130dp"
+        app:strokeColor="@color/black"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step #1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/blue"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invite your Friends to simple Cash using your\n
+ referal code"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:textSize="17dp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:strokeWidth="0.10dp"
+        android:layout_marginTop="230dp"
+        app:strokeColor="@color/black">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step #2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blue"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your friends sign up on simple Cash"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="17dp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:strokeWidth="0.10dp"
+        android:layout_marginTop="330dp"
+        app:strokeColor="@color/black">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step #3"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blue"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="When your Friends will complete 8 offers then\nyou
+will get ₹ 25"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:textSize="17dp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            app:strokeColor="@color/black"
+            app:strokeWidth="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2EF9ADFAE"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="@color/blue"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_baseline_share_24_blue"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_marginTop="200dp"
+    android:layout_gravity="center"
+      android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Tap to copy"
+        android:layout_marginRight="10dp"
+
+        android:layout_gravity="center"/>
+  </LinearLayout>
+
+</FrameLayout>
